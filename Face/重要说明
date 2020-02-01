@@ -1,0 +1,12 @@
+1. 根据下载到电脑本地的 "OpenCV" 文件路径，设置Qt工程的 "Face.pro"
+```
+win32 {
+INCLUDEPATH += D:\OpenCV-MinGW-Build-OpenCV-3.3.1\include\
+INCLUDEPATH += D:\OpenCV-MinGW-Build-OpenCV-3.3.1\include\opencv
+INCLUDEPATH += D:\OpenCV-MinGW-Build-OpenCV-3.3.1\include\opencv2
+LIBS += D:\OpenCV-MinGW-Build-OpenCV-3.3.1\bin\libopencv_*.dll
+}
+```
+2. 将 "ArcSoft_ArcFace" 与 "OpenCV" 相关的 dll 文件复制到工程生成的exe应用程序同文件夹下。
+ArcSoft_ArcFace ：https://github.com/cocowts/OpenCV-MinGW-Build-OpenCV-3.3.1/tree/master/bin 
+OpenCV ： https://github.com/cocowts/ArcSoft_ArcFace_Windows_x86_V2.0/tree/master/lib/Win32
