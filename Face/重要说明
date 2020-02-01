@@ -1,4 +1,4 @@
-1. 根据下载到电脑本地的 "OpenCV" 文件路径，设置Qt工程的 "Face.pro"
+1. 根据下载到电脑本地的 "OpenCV" 文件路径，设置Qt工程的 "Face.pro"。
 ```
 win32 {
 INCLUDEPATH += D:\OpenCV-MinGW-Build-OpenCV-3.3.1\include\
